@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.thegiftapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_preference"
+        android:name="com.example.thegiftapp.ui.preference.preferenceFragment"
+        android:label="@string/menu_preference"
+        tools:layout="@layout/fragment_preference" />
+
+    <fragment
+        android:id="@+id/nav_recommendations"
+        android:name="com.example.thegiftapp.ui.recommendations.recommendationsFragment"
+        android:label="@string/menu_recommendations"
+        tools:layout="@layout/fragment_recommendations" />
+
+    <fragment
+        android:id="@+id/nav_product"
+        android:name="com.example.thegiftapp.ui.product.productFragment"
+        android:label="@string/menu_product"
+        tools:layout="@layout/fragment_product" />
+
+    <fragment
+        android:id="@+id/nav_discovery"
+        android:name="com.example.thegiftapp.ui.discovery.discoveryFragment"
+        android:label="@string/menu_discovery"
+        tools:layout="@layout/fragment_discovery" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.thegiftapp.ui.settings.settingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
